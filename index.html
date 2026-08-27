@@ -1,0 +1,290 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="CSS/all.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+    />
+    <link rel="stylesheet" href="CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="CSS/style.css" />
+    <title>Document</title>
+  </head>
+  <body>
+    <section class="start-setting-box">
+      <div class="setting-box">
+        <div class="toggle-box">
+          <i class="fa-solid fa-gear gear" style="color: rgb(52, 58, 64)"></i>
+        </div>
+        <div class="setting-content">
+          <div class="option-box">
+            <h4>color</h4>
+            <ul class="colors-list">
+              <li class="active" data-color="#ff9800"></li>
+              <li data-color="#3c59fe"></li>
+              <li data-color="#07a484"></li>
+              <li data-color="#ba08ae"></li>
+              <li data-color="#a70707"></li>
+            </ul>
+          </div>
+          <div class="option-box">
+            <h4 class="text-bg">random background</h4>
+            <div class="random-bg">
+              <button class="btn yes active" data-backgroundOption="true">
+                yes
+              </button>
+              <button class="btn no" data-backgroundOption="false">no</button>
+            </div>
+          </div>
+          <div class="option-box">
+            <h4 class="text-bg">Show bullets</h4>
+            <div class="bullets-ption">
+              <button class="btn yes active" data-displaybullets="show">
+                Show
+              </button>
+              <button class="btn no" data-displaybullets="hide">hide</button>
+            </div>
+          </div>
+          <div class="option-box">
+            <h4 class="text-bg">Reset option</h4>
+            <div class="Reset-ption">
+              <button class="btn yes active">Reset</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="nav-bullets">
+      <div class="n-bullets">
+        <div class="bullets" data-section=".AboutBage">
+          <div class="tool-tip">About Us</div>
+        </div>
+        <div class="bullets" data-section=".OurSkills">
+          <div class="tool-tip">Our skills</div>
+        </div>
+        <div class="bullets" data-section=".gallery">
+          <div class="tool-tip">Our Gallery</div>
+        </div>
+        <div class="bullets" data-section=".timeline">
+          <div class="tool-tip">LimeLine</div>
+        </div>
+        <div class="bullets" data-section=".contact-Us">
+          <div class="tool-tip">Contact Us</div>
+        </div>
+      </div>
+    </section>
+    <section class="homeBage">
+      <div class="container-fluid contaner">
+        <div class="overlay">
+          <header>
+            <div class="logo">
+              <h1>Special <span class="active">Design</span></h1>
+            </div>
+            <nav class="nav-links">
+              <ul>
+                <li><a href="" class="active">Home</a></li>
+                <li><a href="" data-section=".AboutBage">About</a></li>
+                <li><a href="" data-section=".OurSkills">skills</a></li>
+                <li><a href="" data-section=".gallery">Gallery</a></li>
+                <li><a href="" data-section=".timeline">LimeLine</a></li>
+              </ul>
+            </nav>
+          </header>
+          <div class="intro-text w-100">
+            <h2>
+              I'm a <span class="active">Front-End</span> Developer using react
+            </h2>
+            <p>
+              hello my name is mohamed i'm a computer science student faculty of
+              computer and information system at tanta universty and i'm
+              studying frontend
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="AboutBage">
+      <div class="container">
+        <div class="about-us py-5 d-flex">
+          <div class="info-Box py-5 align-content-start flex-grow-1">
+            <h2>About Us</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae
+              consequatur minus dolore omnis modi eveniet accusamus. Totam
+              assumenda quia at quidem placeat, reprehenderit blanditiis? Odio,
+              sed vero! Qui, culpa official.
+            </p>
+          </div>
+          <div class="image-box flex-grow-1">
+            <img src="image/img10.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="OurSkills">
+      <div class="container py-5">
+        <div class="skills py-5">
+          <h2>Our Skills</h2>
+          <div class="skill-box">
+            <div class="skill-name">Html</div>
+            <div class="skill-progress">
+              <span data-progress="100%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">Css</div>
+            <div class="skill-progress">
+              <span data-progress="95%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">BootStrap</div>
+            <div class="skill-progress">
+              <span data-progress="90%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">JavaScript</div>
+            <div class="skill-progress">
+              <span data-progress="85%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">jquery</div>
+            <div class="skill-progress">
+              <span data-progress="100%"></span>
+            </div>
+          </div>
+          <div class="skill-box">
+            <div class="skill-name">React</div>
+            <div class="skill-progress">
+              <span data-progress="30%"></span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="gallery">
+      <div class="contain">
+        <h2>Our Gallery</h2>
+        <div class="images-Box">
+          <img src="image/img1.jpg" alt="Image One" />
+          <img src="image/img2.jpg" alt="Image Two" />
+          <img src="image/img3.jpg" alt="Image Three" />
+          <img src="image/img4.jpg" alt="Image Four" />
+          <img src="image/img5.jpg" alt="Image Five" />
+          <img src="image/img6.jpg" alt="" />
+          <img src="image/img7.jpg" alt="" />
+          <img src="image/img8.jpg" alt="" />
+          <img src="image/img9.jpg" alt="" />
+          <img src="image/img10.webp" alt="" />
+        </div>
+      </div>
+    </section>
+    <section class="timeline">
+      <div class="contaien">
+        <div class="timeline-content">
+          <div class="year">2026</div>
+          <div class="left">
+            <div class="content">
+              <h3>TmeLine</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                minima corrupti at nostrum suscipit accusantium tempore
+                sapiente, velit unde, itaque quam. Blanditiis aliquam provident
+                numquam nam ratione perspiciatis, magnam molestiae.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>TmeLine</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                minima corrupti at nostrum suscipit accusantium tempore
+                sapiente, velit unde, itaque quam. Blanditiis aliquam provident
+                numquam nam ratione perspiciatis, magnam molestiae.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2024</div>
+          <div class="right">
+            <div class="content">
+              <h3>TmeLine</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                minima corrupti at nostrum suscipit accusantium tempore
+                sapiente, velit unde, itaque quam. Blanditiis aliquam provident
+                numquam nam ratione perspiciatis, magnam molestiae.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>TmeLine</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                minima corrupti at nostrum suscipit accusantium tempore
+                sapiente, velit unde, itaque quam. Blanditiis aliquam provident
+                numquam nam ratione perspiciatis, magnam molestiae.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>TmeLine</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                minima corrupti at nostrum suscipit accusantium tempore
+                sapiente, velit unde, itaque quam. Blanditiis aliquam provident
+                numquam nam ratione perspiciatis, magnam molestiae.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="left">
+            <div class="content">
+              <h3>TmeLine</h3>
+              <p>
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Harum
+                minima corrupti at nostrum suscipit accusantium tempore
+                sapiente, velit unde, itaque quam. Blanditiis aliquam provident
+                numquam nam ratione perspiciatis, magnam molestiae.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="contact-Us" id="contactUs">
+      <div class="overlayout"></div>
+      <div class="contain">
+        <h2>contact Us</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="your name" name="username" />
+            <input type="tel" placeholder="your phone" name="phone" />
+            <input type="email" placeholder="your email" name="email" />
+            <input type="text" placeholder=" subject " name="subject" />
+          </div>
+          <div class="right">
+            <textarea name="massage" placeholder="your massage"></textarea>
+            <input type="submit" value="send" />
+          </div>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="footer-div">
+        &copy; 2026 <span>Mohamed Nouh</span> — All Rights Reserved.
+      </div>
+    </footer>
+    <script src="JS/script.js"></script>
+  </body>
+</html>
